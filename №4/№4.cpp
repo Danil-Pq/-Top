@@ -20,6 +20,7 @@ vector<long long> generateFibonacci(int n) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     // 1. Создать контейнер типа long long
     vector<long long> container; // Исправлено на long long
     for (int i = 1; i <= 10; i++) {

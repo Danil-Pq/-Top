@@ -8,6 +8,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     string filename;
     cout << "Введите имя файла: ";
     cin >> filename;
